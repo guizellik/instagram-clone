@@ -146,7 +146,6 @@ body {
     display: inline;
 }
 
-/* Na verdade são os li que precisam ter display: inline (ver exemplo do w3c) */
 .links ul {
     float: left;
     text-align: center;
