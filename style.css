@@ -1,0 +1,186 @@
+body {
+    width: 100%;
+    margin-top: 1px;
+    min-height: 10px;
+    background-color: #fafafa;
+    margin-top: 100px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-family: "Segoe UI";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    width: 56%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.instagram-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phone img {
+    height: 40rem;
+}
+
+.instagram-continue {
+    display: flex;
+    align-items: center; /* horizontal */
+    justify-content: space-between; /* vertical */
+    flex-direction: column;
+    width: 100%;
+    margin-left: 40px;
+}
+
+.group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 30px 0;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+}
+
+.other-options {
+    padding: 20px 0;
+}
+
+.instagram-logo {
+    height: 3rem;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.profile-photo img {
+    height: 6rem;
+}
+
+.instagram-login {
+    background-color: #0095f6;
+    color: white;
+    padding: 8px 8px 8px 8px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.instagram-logout {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.not-account {
+    color: rgb(160, 160, 160);
+    margin: 0;  
+}
+
+.not-current-account {
+    margin-bottom: 6px;
+    font-weight: normal;
+}
+
+.link-blue {
+    color: #0095f6;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;    
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.app-download   {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url('./apple-button.png');
+}
+
+.app-download:nth-child(2) {
+    background-image: url('./google-play-button.png');
+}
+
+.footer ul {
+    list-style-type: none;
+    display: inline;
+}
+
+/* Na verdade são os li que precisam ter display: inline (ver exemplo do w3c) */
+.links ul {
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+    
+}
+
+.links li {
+    display: inline;
+}
+
+.links li a {
+    color: #8e8e8e;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 1px 4px;
+}
+
+.copyright {
+    text-align: center;
+    color: #8e8e8e;
+    font-size: 12px;
+    margin: 1px 4px;
+}
+
+.copyright select {
+    border: 0;
+    outline: 0;
+    background-color: #fafafa;
+    font-family: "Segoe UI";
+    font-size: 12px;  
+    color: #8e8e8e;  
+    width: 60px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}

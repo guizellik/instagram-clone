@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Instagram</title>
+    <link rel="icon" type="icon" href="./instagram-favicon.ico"/>
+</head>
+<body>
+    <div class="instagram-wrapper">
+        <div style="display: flex; justify-content: space-between;">
+            <img src="./instagram-celular.PNG" alt="celular">
+            <div class="instagram-continue">
+                <div class="group login">
+                    <img src="./instagram_logo.png" class="instagram-logo" alt="Instagram logo">
+                    <div class="profile-photo">
+                        <img src="./instagram-profile.png" alt="foto de perfil">
+                    </div>
+                    <a href="#" class="instagram-login">Continue as vickycristinabarcelona_thedog</a>
+                    <a href="#" class="instagram-logout">Remove account</a>
+                </div>
+                <div class="group other-options">
+                    <p class="not-account not-current-account">Not vickycristinabarcelona_thedog?</p>
+                    <p class="not-account">
+                        <a class="link-blue" href="#">Switch Accounts</a>
+                        or
+                        <a class="link-blue" href="#">Sign Up</a>
+                    </p>           
+                </div>
+                <div class="get-the-app">
+                    <p class="get-app">Get the app.</p>
+                    <div class="download">
+                        <a href="#" class="app-download"></a> 
+                        <a href="#" class="app-download"></a>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <!-- Por ser uma navbar (barra de navegação), é bom envolver a lista com a tag semântica nav.
+            Acho que não precisa desse wrapper links, pode trocá-lo por nav. -->
+            <nav class="links">
+                <ul>
+                    <li><a href="https://about.instagram.com/" target="blank">About</a></li>
+                    <li><a href="https://about.instagram.com/blog/" target="blank">Blog</a></li>
+                    <li><a href="https://www.instagram.com/about/jobs/" target="blank">Jobs</a></li>
+                    <li><a href="https://help.instagram.com/" target="blank">Help</a></li>
+                    <li><a href="https://www.instagram.com/developer/" target="blank">API</a></li>
+                    <li><a href="https://www.instagram.com/legal/privacy/" target="blank">Privacy</a></li>
+                    <li><a href="https://www.instagram.com/legal/terms/" target="blank">Terms</a></li>
+                    <li><a href="https://www.instagram.com/directory/profiles/" target="blank">Top Accounts</a></li>
+                    <li><a href="https://www.instagram.com/directory/hashtags/" target="blank">Hashtags</a></li>
+                    <li><a href="https://www.instagram.com/explore/locations/" target="blank">Locations</a></li>                   
+                </ul>
+            </nav>
+            <!-- Não precisar ser ul, essa tag é usada em menus por ser boa prática de acessibilidade
+            para navegação com a tecla tab. Tira o ul e transforma os li em span pra começar. Depois
+            note que o English na verdade é um select e mude pra tag certa. -->
+            <div class="copyright">
+                <select>
+                    <option value="0">English</option>
+                    <option value="1">Português (Brasil)</option>
+                    <option value="2">Français</option>
+                    <option value="3">Italiano</option>
+                </select>
+                    <span>© 2020 Instagram from Facebook</span>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
